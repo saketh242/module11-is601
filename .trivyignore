@@ -1,0 +1,2 @@
+CVE-2025-43859 # h11: h11 accepts some malformed Chunked-Encoding bodies
+CVE-2025-62727 # starlette: Starlette DoS via Range header merging
