@@ -1,6 +1,9 @@
 import uuid
 import pytest
 
+# Ensure the User model is imported so SQLAlchemy can resolve the relationship
+from app.models.user import User  # noqa: F401
+
 from app.models.calculation import (
     Addition,
     Subtraction,
